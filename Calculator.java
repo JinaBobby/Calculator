@@ -96,12 +96,12 @@ b=Double.parseDouble(t.getText());
 r=a-b;
 }
 else if(temp.equals("*")){
-                                                      b=Double.parseDouble(t.getText());
+b=Double.parseDouble(t.getText());
 r=a*b;
 
 }
 else {
-                                                b=Double.parseDouble(t.getText());
+b=Double.parseDouble(t.getText());
 r=a/b;
 }
 t.setText(Double.toString(r));
